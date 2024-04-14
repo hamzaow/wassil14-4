@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.index1 {
+    /*  background-color: #325774;*/
+
+}
+
+/*
+nav {
+    overflow: hidden;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-left: 0px;
+    margin: 0;
+    /*display: flex;
+    align-items: center;
+    width: auto;
+    margin: auto;
+
+    position: sticky;
+    padding: 1rem;
+}*/
+
+#logo {
+    /*flex: 1 1 40rem;*/
+
+    color: #3fa1ec;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.wahd {
+    margin-top: 65px;
+}
+
+.www {
+    border: 1px solid rgb(170, 182, 170);
+    border-radius: 7%;
+    background-color: beige;
+    width: 90%;
+    margin: 10px;
+}
+
+.jouj {
+    /*border: 7px solid rgb(155, 125, 42);*/
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.jouj-1 {
+    border: 1px solid rgb(170, 182, 170);
+    margin: 5px;
+    margin-bottom: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    flex-wrap: wrap;
+
+}
+
+.jouj-2 {
+    /*border: 5px solid rgb(226, 43, 165);*/
+    width: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.jouj-3 {
+    width: auto;
+    display: flex;
+    justify-content: left;
+}
+
+#pp {
+    /*border: 7px solid rgb(21, 255, 0);*/
+
+    width: 50%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

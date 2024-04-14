@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.index1 {}
+
+nav {
+    overflow: hidden;
+    background-color: #e7eff5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-left: 15px;
+    margin: auto;
+    /*display: flex;
+    align-items: center;
+    width: auto;
+    margin: auto;
+
+    position: sticky;
+    padding: 1rem;*/
+}
+
+/*home about-us */
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+#logo {
+    flex: 1 1 40rem;
+    color: #3fa1ec;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.index2 {}
+
+.fit-picture {
+    margin-top: 4rem;
+    width: 100%;
+
+}
+
+.index3 {
+    /* border: 7px solid rgb(218, 121, 213);*/
+}
+
+.how {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: auto;
+    flex-wrap: wrap;
+    /*
+    max-width: 1200px;
+    
+    
+    border: 7px solid rgb(0, 81, 255);*/
+}
+
+.index4 {
+    border: 3px solid #f5d6c8;
+}
+
+.NIVEAU {
+    /*display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;*/
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    width: auto;
+    /* border: 7px solid rgb(21, 255, 0);*/
+}
+
+.stp1 {
+    width: 250px;
+    padding: 5px;
+}
+
+.prim {
+    width: 250px;
+    padding: 5px;
+}
+
+.coll {
+    width: 250px;
+    padding: 5px;
+}
+
+.lyc {
+    width: 250px;
+    padding: 5px;
+}
+
+.unv {
+    width: 250px;
+    padding: 5px;
+}
+
+.index5 {
+    /* display: none;*/
+    background-color: #f5d6c8;
+    /*border: 7px solid rgb(37, 85, 32);*/
+
+}
+
+
+
+
+@media screen and (max-width:444px) {
+    .prim {
+        width: 250px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .coll {
+        width: 250px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lyc {
+        width: 250px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .unv {
+        width: 250px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*
+    .how {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: auto;
+        /* border: 7px solid rgb(255, 0, 242);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .how21 {
+        margin: 10px;
+        width: 50%;
+        /* border: 7px solid rgb(75, 6, 71);
+    }
+
+    .stp1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #awalan {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .how22 {
+        margin: 10px;
+        width: 50%;
+        /*border: 7px solid rgb(75, 6, 71);
+}
+
+.index4 {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    border: 7px solid rgb(255, 145, 0);
+    display: none;
+}
+
+/*    .NIVEAU {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 15px 0;
+        border: 7px solid rgb(255, 0, 242);
+    }
+
+    #nv {
+        flex-wrap: wrap;
+
+        border: 7px solid rgb(255, 0, 0);
+    }
+
+}*/
